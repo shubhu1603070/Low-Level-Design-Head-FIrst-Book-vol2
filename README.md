@@ -7,24 +7,26 @@ What i mean by this is that as soon as we publish something all the subscriber w
 any change happen on the publisher subscriber also does change the state acc. to the publisher
 
 IMP:
-"Best Example" : We all get notification in our cell phones from different sources so consider this sources as subject/publisher
+  
+  "Best Example" : We all get notification in our cell phones from different sources so consider this sources as subject/publisher
                and mobile/tab/laptop as observer/subscriber
 
  IMP:
-"When To use this Pattern" : When we want to change the current state of the system as soon as the data-source state changes.
+  
+  "When To use this Pattern" : When we want to change the current state of the system as soon as the data-source state changes.
 
 
 Example:
 
 Suppose if there are more than 3 subjects
-AajTakNewsChannel -> They'll publish the news
-BharatNewsChannel -> They'll also publish the news
-ZeeNewsChannel  -> They'll also publish the news
+1) AajTakNewsChannel -> They'll publish the news
+2) BharatNewsChannel -> They'll also publish the news
+3) ZeeNewsChannel  -> They'll also publish the news
 
 I have 3 users
-MobileUser
-LaptopUser
-TabUser
+1) MobileUser
+2) LaptopUser
+3) TabUser
 
 Case 1:
 Now let's say MobileUser have taken the subscription from 2 channels
@@ -55,8 +57,8 @@ Answer is "NO" Why? Bcuz we don't have subscription now and LaptopUser doesn't c
 
 KeyPoints:
 1) We can have more than one Publisher/Subject for that we create 1 interface in Subject
-    1.1) Now Multiple Subject can implement it and reuse the code
-
+   
+   1.1) Now Multiple Subject can implement it and reuse the code
     # Operations in Publisher/Subject
         1) Subject have to subscribe/add the subscriber/observer
         2) Subject may have to cancel/remove the subscription/observer
@@ -65,9 +67,9 @@ KeyPoints:
         5) Subject will get the current state using get method
 
 2) We can have more than one Subscriber/Observer also for that we create 1 interface in Observer
+   
     2.1) Now multiple subscriber will implement the Subscriber/Observer
-
-    # Operation in Subscriber/Observer
+      # Operation in Subscriber/Observer
         1) Update the current state -> But for this we also have to understand from which publisher the change have come from and will call methods to the get the
             current state of that particular publisher Point number 5 of 1 -> # Operation
 
