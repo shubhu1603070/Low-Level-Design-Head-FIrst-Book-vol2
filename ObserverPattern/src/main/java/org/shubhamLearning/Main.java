@@ -11,7 +11,7 @@ import org.shubhamLearning.Subject.Interface.NewsChannel;
 
 public class Main {
     public static void main(String[] args) {
-//Data source 1
+        //Data source 1
         NewsChannel aajTakNewsChannel = new AajTakNewsChannelImpl();
 
         //Data source 2
