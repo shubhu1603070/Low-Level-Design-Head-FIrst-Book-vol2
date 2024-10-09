@@ -3,6 +3,11 @@ package org.decorator.Features;
 import org.decorator.Base.Vehicle;
 import org.decorator.Decorator.VehicleDecorator;
 
+/*
+    PowerStaring is a feature of a Vehicle
+    PowerStaring have a Vehicle -> Without Vehicle, PowerStaring doesn't make any sense
+    Has-A Relationship
+*/
 public class PowerStaring extends VehicleDecorator {
 
     public Vehicle vehicle;

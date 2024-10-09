@@ -3,6 +3,11 @@ package org.decorator.Features;
 import org.decorator.Base.Vehicle;
 import org.decorator.Decorator.VehicleDecorator;
 
+/*
+    Tyres is a feature of a Vehicle
+    Tyres have a Vehicle -> Without Vehicle, Tyres doesn't make any sense
+    Has-A Relationship
+*/
 public class Tyres extends VehicleDecorator {
 
     public Vehicle vehicle;
