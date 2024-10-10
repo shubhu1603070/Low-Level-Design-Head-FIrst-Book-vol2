@@ -1,7 +1,7 @@
 package org.shubhamLearning.FactoryPattern.PaymentFactory;
 
+import org.shubhamLearning.FactoryPattern.Enums.PaymentType;
 import org.shubhamLearning.FactoryPattern.Payment.Payment;
-import org.shubhamLearning.FactoryPattern.PaymentType.PaymentType;
 
 import java.util.Objects;
 
