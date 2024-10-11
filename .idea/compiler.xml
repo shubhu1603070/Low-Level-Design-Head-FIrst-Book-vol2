@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="FactoryPattern" />
         <module name="ObserverPattern" />
+        <module name="SingeltonPattern" />
         <module name="DecoratorPattern" />
       </profile>
     </annotationProcessing>
