@@ -1,0 +1,7 @@
+Suppose if we want to get on the undo[4]
+
+In that case we'll create a List<Command> undoCommandHistory = new ArrayList<Command>();
+
+And whenever we give command that i want to get the 4th command be undone than we get the command using undoCommandHistory.get(index).execute();
+
+This way i'll be able
