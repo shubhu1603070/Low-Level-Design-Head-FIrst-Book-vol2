@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/SingeltonPattern/pom.xml" />
         <option value="$PROJECT_DIR$/CommandPattern/pom.xml" />
         <option value="$PROJECT_DIR$/AdapterPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/FacadePattern/pom.xml" />
       </list>
     </option>
   </component>
