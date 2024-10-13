@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="FactoryPattern" />
         <module name="ObserverPattern" />
+        <module name="AdapterPattern" />
         <module name="CommandPattern" />
         <module name="SingeltonPattern" />
         <module name="DecoratorPattern" />
