@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/CommandPattern/pom.xml" />
         <option value="$PROJECT_DIR$/AdapterPattern/pom.xml" />
         <option value="$PROJECT_DIR$/FacadePattern/pom.xml" />
+        <option value="$PROJECT_DIR$/TemplateMethodPattern/pom.xml" />
       </list>
     </option>
   </component>
