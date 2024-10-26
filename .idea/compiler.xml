@@ -11,6 +11,7 @@
         <module name="CommandPattern" />
         <module name="SingeltonPattern" />
         <module name="DecoratorPattern" />
+        <module name="CompositePattern" />
         <module name="TemplateMethodPattern" />
         <module name="FactoryPattern" />
         <module name="AdapterPattern" />
